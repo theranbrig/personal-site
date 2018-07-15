@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="865" height="464" viewBox="0 0 865 464">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 625px;
+      }
+
+      .cls-2, .cls-3 {
+        text-anchor: middle;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+        font-family: "Parley bold";
+      }
+    </style>
+
+    <path id="text-path-1" d="M 313.68 244.08L 311.28 113.52"/>
+  </defs>
+  <text class="cls-1"><textPath xlink:href="#text-path-1" startOffset="50%" class="cls-2"><tspan class="cls-3">brig</tspan></textPath></text>
+</svg>

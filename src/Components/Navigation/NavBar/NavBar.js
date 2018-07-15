@@ -3,7 +3,7 @@ import Logo from '../../../assets/theran-logo.png';
 import classes from './NavBar.css';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import ToggleButton from '../SideDrawer/ToggleButton';
-import Aux from '../../../hoc/Aux'
+import Aux from '../../../hoc/Aux';
 
 
 

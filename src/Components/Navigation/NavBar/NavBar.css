@@ -1,5 +1,4 @@
 .Logo {
-  height: 60px;
   width: 120px;
   padding: 10px 20px;
 }
@@ -15,15 +14,18 @@
 .Navigation nav ul {
   display: inline;
   float: right;
-  padding: 16px;
+  padding: 16px 16px;
 }
 
 .Navigation nav ul li {
   display: inline;
-  margin: 20px;
+  margin: 18px;
+  line-height: 0.8em;
   color: gainsboro;
   text-decoration: none;
   font-size: 1.3em;
+  letter-spacing: 0.15em;
+  padding-bottom: 5px;
 }
 
 .Navigation nav ul li a {

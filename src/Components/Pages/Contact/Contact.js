@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import classes from './Contact.css';
 import Logo from '../../../assets/theran-logo.png'
+import {Image} from 'semantic-ui-react'
 
 
 class Contact extends Component {
   render() {
     return (
       <div className={classes.ContactPage}>
-        <img className={classes.Logo} src={Logo}/>
+        <Image className={classes.Logo} src={Logo} size='medium'/>
         <h1>Contact Theran</h1>
         <p>Get a hold of me for any questions you may have.</p>
         <div className={classes.SocialIcons}>

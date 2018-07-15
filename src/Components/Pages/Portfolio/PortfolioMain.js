@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import classes from './Portfolio.css'
+import classes from './PortfolioMain.css'
 
 class Portfolio extends Component {
   render() {
     return (
-      <div>
-        <h1>Portfolio</h1>
-      </div>
+      <h1>Hi</h1>
     );
   }
 }
 
 export default Portfolio;
+
