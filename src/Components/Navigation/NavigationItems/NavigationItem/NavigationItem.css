@@ -1,0 +1,33 @@
+.NavigationItem {
+  margin: 10px 0;
+  color: #232323;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px 0;
+}
+
+.NavigationItem a {
+  color: #232323;
+  text-decoration: none;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: #40a4c8;
+}
+
+
+@media (min-width: 500px) {
+  .NavigationItem {
+    color: black
+  }
+  .NavigationItem a {
+    text-decoration: none;
+  }
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    color: #40a4c8;
+  }
+}

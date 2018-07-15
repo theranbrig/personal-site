@@ -1,0 +1,42 @@
+.Logo {
+  height: 60px;
+  width: 120px;
+  padding: 10px 20px;
+}
+
+.Navigation nav {
+  margin: 0 auto;
+  padding: 5px;
+  border-bottom: 1px gainsboro solid;
+  font-family: 'Raleway', sans-serif;
+  background-color: #131313;
+}
+
+.Navigation nav ul {
+  display: inline;
+  float: right;
+  padding: 16px;
+}
+
+.Navigation nav ul li {
+  display: inline;
+  margin: 20px;
+  color: gainsboro;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.Navigation nav ul li a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.Navigation ul li:hover {
+  border-bottom: 2px gainsboro solid;
+}
+
+@media (max-width: 639px) {
+  .Navigation ul li a {
+    display: none;
+  }
+}

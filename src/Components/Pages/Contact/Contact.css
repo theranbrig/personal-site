@@ -1,0 +1,69 @@
+.SocialIcons li i {
+  color: gainsboro;
+  font-size: 5em;
+  padding: 5px;
+  text-align: center;
+}
+
+.SocialIcons ul li {
+  display: inline-block;
+  width: 12%;
+  margin: 0 auto;
+}
+
+.SocialIcons ul {
+  padding: 50px 0;
+}
+
+.SocialIcons ul li a {
+  text-decoration: none;
+  color: #40a4c8;
+  margin: 0 auto;
+}
+
+.SocialIcons ul li h5 {
+  font-size: 0.7em;
+  letter-spacing: 0.1em
+}
+
+.ContactPage {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: gainsboro;
+}
+
+.ContactPage h1 {
+  letter-spacing: 0.15em
+}
+
+.ContactPage p {
+  letter-spacing: 0.1em;
+}
+
+.ContactPage p:last-child {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.Logo {
+  padding: 30px 0;
+  width: 15%;
+}
+
+@media (max-width: 500px) {
+  .SocialIcons ul li {
+    display: inline;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .SocialIcons ul li {
+    width: 18%;
+  }
+  .ContactPage p:last-child {
+    width: 80%;
+    margin: 0px auto 40px;
+  }
+}

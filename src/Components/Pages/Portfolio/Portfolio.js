@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classes from './Portfolio.css'
 
 class Portfolio extends Component {
   render() {

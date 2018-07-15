@@ -1,0 +1,9 @@
+.NavigationItems {
+  list-style: none;
+}
+
+/* @media (min-width: 500px) {
+  .NavigationItems ul {
+    display: none;
+  }
+} */

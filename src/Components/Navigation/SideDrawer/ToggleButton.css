@@ -1,0 +1,14 @@
+.ToggleButton {
+  color: gainsboro;
+  font-size: 2em;
+  float: right;
+  position: absolute;
+  top: 35px;
+  right: 25px;
+}
+
+@media (min-width: 640px) {
+  .ToggleButton {
+    display: none;
+  }
+}
