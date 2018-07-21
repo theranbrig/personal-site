@@ -6,7 +6,8 @@ import Home from './Components/Pages/Home/Home'
 import Portfolio from './Components/Pages/Portfolio/PortfolioMain'
 import About from './Components/Pages/About/About'
 import Contact from './Components/Pages/Contact/Contact'
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Item from './Components/Pages/Portfolio/Item/Item';
 
 class App extends Component {
   state = {
@@ -28,24 +29,17 @@ class App extends Component {
     <Aux>
       <Router>
         <div>
-          <div className="App">
+          <header>
             <NavBar sideDrawerToggle={this.sideDrawerToggleHandler}/>
             <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>
-          </div>
-          <div>
-            <div>
-              <Route exact path='/' component={Home} />
-            </div>
-            <div>
-              <Route path='/portfolio' component={Portfolio} />
-            </div>
-            <div>
-              <Route path='/about' component={About} />
-            </div>
-            <div>
-              <Route path='/contact' component={Contact} />
-            </div>
-          </div>
+          </header>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/portfolio' component={Portfolio} />
+            <Route path='/portfolio/:slug' component={Item} />
+            <Route path='/about' component={About} />
+            <Route path='/contact' component={Contact} />
+          </Switch>
         </div>
       </Router>
     </Aux>

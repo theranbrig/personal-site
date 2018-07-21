@@ -1,3 +1,74 @@
 .Particles {
-  height: 90vh;
+  height: 100%;
+  padding-bottom: 20vh;
+  z-index: -1;
+}
+
+.MainDiv {
+  position: relative;
+  margin: -20px;
+}
+
+.MainDiv canvas {
+  position: absolute;
+  top: 5px;
+}
+
+.MainDiv .MainLogo {
+  position: absolute;
+}
+
+.MainDiv img {
+  width: 20% !important;
+  margin: 15px auto 5px;
+  padding: 50px 0;
+  position: relative;
+}
+
+.MainContent {
+  width: 70% !important;
+  opacity: 0.9;
+  margin: 0 auto;
+  background-color: #232323;
+  z-index: 1000;
+  position: relative;
+  border: 2px solid gainsboro;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-family: 'Raleway';
+}
+
+
+.MainContent h1 {
+  color: #40a4c8;
+  font-size: 3.5em;
+}
+
+.MainContent h2 {
+  font-size: 2em;
+}
+
+.MainContent h3 {
+  font-family: 'Raleway';
+  color: gainsboro
+}
+
+.MainContent h3 a {
+  color: #40a4c8
+}
+
+.MainContent p {
+  color: gainsboro;
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .MainContent {
+    width: 80% !important;
+  }
 }

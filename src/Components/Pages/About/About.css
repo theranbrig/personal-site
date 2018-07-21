@@ -7,11 +7,7 @@
 }
 
 .Grid img {
-  margin: 40px auto 20px;
-}
-
-.Grid div {
-  margin: 30px auto;
+  margin: 10px auto 10px;
 }
 
 .Grid h1,
@@ -24,6 +20,7 @@ h2 {
 .Grid h1 {
   font-size: 2.5em;
   margin-top: 20px;
+  text-align: center;
 }
 
 .Grid h2 {
@@ -45,16 +42,16 @@ h2 {
   line-height: 1.2em;
 }
 
-.Grid h3 {
+.Grid h3,
+.Grid h3 a {
   color: #40a4c8;
   letter-spacing: 0.2em;
   font-family: 'Raleway';
-  padding: 0 5px;
 }
 
 .ImageList ul li {
   display: inline-block;
-  width: 12%;
+  width: 25%;
   text-align: center;
   color: gainsboro;
 }
@@ -75,7 +72,21 @@ ul {
 }
 
 .Know ul li {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  width: 25%;
+  padding: 15px;
+}
+
+.Learn ul li:last-child p:last-child {
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+.Grid .sidebar h3 a,
+.Grid .sidebar h3 {
+  font-size: 1.1em;
+  text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -84,6 +95,25 @@ ul {
   }
   .ImageList ul li {
     display: inline-block;
-    width: 25%;
+    width: 33%;
+    font-size: 0.9em;
+  }
+
+  .Grid h3,
+  .Grid h3 a {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  .Grid .sidebar h3,
+  .Grid .sidebar h3 a {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .Grid p {
+    font-family: 'Raleway';
+    color: gainsboro;
+    letter-spacing: 0.15em;
+    line-height: 1.6em;
+    font-size: 1em;
   }
 }

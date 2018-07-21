@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 import classes from './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 
-const navigationItems = (props) => {
-  return (
-    <ul className={classes.NavigationItems}>
-      <NavigationItem link='/' active>Home</NavigationItem>
-      <NavigationItem link='/portfolio'>Portfolio</NavigationItem>
-      <NavigationItem link='/about'>About</NavigationItem>
-      <NavigationItem link='/contact'>Contact</NavigationItem>
-    </ul>
-  )
+class NavigationItems extends Component {
+  render() {
+    return (
+      <ul className={classes.NavigationItems}>
+        <NavigationItem link='/'>Home</NavigationItem>
+        <NavigationItem link='/portfolio'>Portfolio</NavigationItem>
+        <NavigationItem link='/about'>About</NavigationItem>
+        <NavigationItem link='/contact'>Contact</NavigationItem>
+      </ul>
+    )
+  }
 }
 
-export default navigationItems
+export default NavigationItems

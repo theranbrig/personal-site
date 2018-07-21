@@ -1,3 +1,25 @@
 .Portfolio {
   font-family: 'Raleway';
 }
+
+.Container {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.Container h1 {
+  font-size: 2em;
+  color: #40a4c8;
+  font-family: 'Raleway'
+}
+
+.Container h2 {
+  font-size: 1.3em;
+  color: gainsboro;
+  font-family: 'Raleway';
+  padding-bottom: 20px;
+}
+
+.ui.cards>.card {
+  font-size: 3em !important;
+}

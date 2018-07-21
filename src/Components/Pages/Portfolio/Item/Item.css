@@ -1,0 +1,46 @@
+.Item {
+  margin: 0 auto;
+}
+
+.Item i {
+  color: gainsboro;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.Item h1 {
+  color: #40a4c8;
+  font-size: 3em;
+}
+
+.Item img {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.Item p {
+  color: gainsboro;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+.Item i,
+.Item p,
+.Item h2,
+.Item h3 {
+  color: gainsboro;
+}
+
+.Item p,
+.Item h1,
+.Item h2,
+.Item h3 {
+  font-family: 'Raleway';
+}
+
+.Item h1,
+.Item h2,
+.Item h3 {
+  text-align: center;
+}

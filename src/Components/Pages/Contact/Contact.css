@@ -7,7 +7,7 @@
 
 .SocialIcons ul li {
   display: inline-block;
-  width: 12%;
+  width: 15%;
   margin: 0 auto;
 }
 
@@ -23,8 +23,9 @@
 }
 
 .SocialIcons ul li h5 {
-  font-size: 0.7em;
-  letter-spacing: 0.1em
+  font-family: 'Raleway';
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
 }
 
 .ContactPage {
@@ -40,6 +41,7 @@
 
 .ContactPage p {
   letter-spacing: 0.1em;
+  font-size: 1.2em;
 }
 
 .ContactPage p:last-child {
@@ -47,29 +49,41 @@
   margin: 40px auto;
 }
 
-.Logo {
-  margin: 25px auto;
+.ContactPage p:last-child a {
+  color: #40a4c8
 }
 
+.Logo {
+  margin: 5% auto;
+}
 
 @media (max-width: 500px) {
   .SocialIcons ul li {
     display: inline;
     width: 80%;
   }
+
+  .SocialIcons ul li h5 {
+    padding-top: 15px;
+  }
 }
 
 @media (max-width: 768px) {
   .SocialIcons ul li {
-    width: 18%;
+    width: 25%;
   }
 
   .SocialIcons ul li h5 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 0.65em;
+    margin: 0 auto 40px;
   }
-
+  
   .ContactPage p:last-child {
-    width: 80%;
+    width: 95%;
     margin: 0px auto 40px;
+  }
+  .ContactPage {
+    width: 95%;
   }
 }

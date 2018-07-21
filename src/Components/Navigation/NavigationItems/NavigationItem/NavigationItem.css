@@ -17,13 +17,17 @@
   color: #40a4c8;
 }
 
+.NavigationItem a.normal {
+  color: gainsboro;
+}
 
 @media (min-width: 500px) {
   .NavigationItem {
-    color: black
+    color: black;
   }
   .NavigationItem a {
     text-decoration: none;
+
   }
   .NavigationItem a:hover,
   .NavigationItem a:active,
