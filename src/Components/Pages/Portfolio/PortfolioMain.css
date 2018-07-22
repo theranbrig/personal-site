@@ -23,3 +23,7 @@
 .ui.cards>.card {
   font-size: 3em !important;
 }
+
+.ui.card {
+  margin: 40px 0;
+}

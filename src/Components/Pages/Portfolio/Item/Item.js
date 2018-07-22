@@ -21,7 +21,7 @@ class PortfolioItem extends Component {
     return (
       <Container className={classes.Item}>
         <div>
-          <Link exact to='/portfolio'><i className="fas fa-arrow-left"></i></Link>
+          <Link to='/portfolio'><i className="fas fa-arrow-left"></i></Link>
         </div>
         <div className='mainSection'>
           <div className='heading'>
@@ -29,7 +29,7 @@ class PortfolioItem extends Component {
             <h2>{this.state.item.description}</h2>
             <h2><a className={classes.gitLink} href={this.state.item.gitLink} target='_blank'>GitHub Source Code</a></h2>
           </div>
-          <section>
+          <section className={classes.built}>
             <h3>Built with: {this.state.item.technology}</h3>
             <p>{this.state.item.extendedDescription}</p>
             <ul>
@@ -43,6 +43,7 @@ class PortfolioItem extends Component {
                 <Image size='big' src={this.state.item.screenShot3}/>
               </li>
             </ul>
+            <h3 className={classes.bottomLink}>See more images and the source code on <a>GitHub</a></h3>
           </section>
         </div>
       </Container>

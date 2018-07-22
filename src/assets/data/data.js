@@ -51,30 +51,30 @@ export default [
   screenShot2: '',
   screenShot3: ''
   },
-  {
-  title: 'Yelp Camp',
-  technology: 'Express, Node, Mongo, EJS',
-  created: 'December 2017',
-  description: 'Camping Reviews using Express and EJS',
-  slug: 'yelp-camp',
-  image: 'https://i.imgur.com/D3yLLLX.png?1',
-  extendedDescription: "This page was builtinModules........",
-  gitLink: 'https://github.com/theranbrig/yelp-camp-project',
-  screenShot1: '',
-  screenShot2: '',
-  screenShot3: ''
-  },
-  {
-  title: 'Data Science',
-  technology: 'Vanilla Javascript, SQL',
-  created: 'Summer 2018',
-  description: 'Database and Algorithms for CS Fundamentals',
-  slug: 'data-science',
-  image: 'https://i.imgur.com/AJTuJqP.png?1',
-  extendedDescription: "This page was builtinModules........",
-  gitLink: 'https://github.com/theranbrig/cs-fundamentals',
-  screenShot1: '',
-  screenShot2: '',
-  screenShot3: ''
-  },
+  // {
+  // title: 'Yelp Camp',
+  // technology: 'Express, Node, Mongo, EJS',
+  // created: 'December 2017',
+  // description: 'Camping Reviews using Express and EJS',
+  // slug: 'yelp-camp',
+  // image: 'https://i.imgur.com/D3yLLLX.png?1',
+  // extendedDescription: "This page was builtinModules........",
+  // gitLink: 'https://github.com/theranbrig/yelp-camp-project',
+  // screenShot1: '',
+  // screenShot2: '',
+  // screenShot3: ''
+  // },
+  // {
+  // title: 'Data Science',
+  // technology: 'Vanilla Javascript, SQL',
+  // created: 'Summer 2018',
+  // description: 'Database and Algorithms for CS Fundamentals',
+  // slug: 'data-science',
+  // image: 'https://i.imgur.com/AJTuJqP.png?1',
+  // extendedDescription: "This page was builtinModules........",
+  // gitLink: 'https://github.com/theranbrig/cs-fundamentals',
+  // screenShot1: '',
+  // screenShot2: '',
+  // screenShot3: ''
+  // },
 ];

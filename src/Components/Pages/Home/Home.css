@@ -6,7 +6,7 @@
 
 .MainDiv {
   position: relative;
-  margin: -20px;
+  margin-top: -20px;
 }
 
 .MainDiv canvas {
@@ -43,7 +43,6 @@
   font-family: 'Raleway';
 }
 
-
 .MainContent h1 {
   color: #40a4c8;
   font-size: 3.5em;
@@ -69,6 +68,20 @@
 
 @media (max-width: 500px) {
   .MainContent {
-    width: 80% !important;
+    width: 85% !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .MainContent {
+    width: 85% !important;
+    padding: 60px 100px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1480px) {
+  .MainContent {
+    padding: 60px 300px;
   }
 }

@@ -106,9 +106,11 @@ ul {
   }
   .Grid .sidebar h3,
   .Grid .sidebar h3 a {
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-align: center;
+    padding: 5px;
   }
+  
   .Grid p {
     font-family: 'Raleway';
     color: gainsboro;

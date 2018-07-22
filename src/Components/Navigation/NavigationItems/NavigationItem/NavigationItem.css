@@ -3,12 +3,17 @@
   color: #232323;
   font-size: 1.3em;
   font-family: 'Raleway', sans-serif;
-  padding: 15px 0;
+  padding: 15px 0 0;
 }
 
 .NavigationItem a {
   color: #232323;
   text-decoration: none;
+  font-size: 1.5em;
+}
+
+li.NavigationItem {
+  text-align: right !important;
 }
 
 .NavigationItem a:hover,
@@ -27,11 +32,6 @@
   }
   .NavigationItem a {
     text-decoration: none;
-
-  }
-  .NavigationItem a:hover,
-  .NavigationItem a:active,
-  .NavigationItem a.active {
-    color: #40a4c8;
+    font-size: 1em;
   }
 }

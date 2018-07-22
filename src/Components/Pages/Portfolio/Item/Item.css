@@ -20,7 +20,7 @@
 
 .Item p {
   color: gainsboro;
-  font-size: 1.1em;
+  font-size: 1.2em;
   letter-spacing: 0.1em;
   line-height: 1.5em;
 }
@@ -43,4 +43,31 @@
 .Item h2,
 .Item h3 {
   text-align: center;
+}
+
+a.gitLink {
+  color: #40a4c8;
+}
+
+.built {
+  margin: 10px 0;
+}
+
+.built h3 {
+  padding-bottom: 50px;
+}
+
+.bottomLink,
+a.bottomLink {
+  margin: 15px 0;
+  padding: 15px 0 50px;
+  letter-spacing: 0.1em;
+}
+
+/* .bottomLink h3 {
+  font-family: 'Raleway';
+} */
+
+.bottomLink a {
+  color: #40a4c8 !important;
 }

@@ -24,7 +24,7 @@
 
 .SocialIcons ul li h5 {
   font-family: 'Raleway';
-  font-size: 0.8em;
+  font-size: 0.7em;
   letter-spacing: 0.1em;
 }
 
@@ -57,33 +57,31 @@
   margin: 5% auto;
 }
 
-@media (max-width: 500px) {
-  .SocialIcons ul li {
-    display: inline;
-    width: 80%;
-  }
-
-  .SocialIcons ul li h5 {
-    padding-top: 15px;
-  }
-}
-
 @media (max-width: 768px) {
   .SocialIcons ul li {
-    width: 25%;
+    width: 20%;
   }
-
   .SocialIcons ul li h5 {
     padding-bottom: 10px;
-    font-size: 0.65em;
+    font-size: 0.6em;
     margin: 0 auto 40px;
   }
-  
   .ContactPage p:last-child {
     width: 95%;
     margin: 0px auto 40px;
   }
   .ContactPage {
     width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .SocialIcons ul li {
+    display: inline;
+    width: 80%;
+  }
+  .SocialIcons ul li h5 {
+    padding-top: 15px;
+    font-size: 1em;
   }
 }
