@@ -45,9 +45,9 @@ class Portfolio extends Component {
         <Card.Group stackable centered itemsPerRow={3} className={classes.Portfolio}>
           {
             this.state.portfolio.map( (item, index) =>
-              <Card key={item.slug}>
+              <Card className={classes.Card} key={item.slug}>
                   <Transition visible={visible} animation='scale' duration={500}>
-                    <Image src={item.image} fluid/>
+                    <Link to={`/portfolio/${item.slug}`}><Image src={item.image} size='medium' centered/></Link>
                   </Transition>
                   <Card.Content style={divStyle}>
                     <Link to={`/portfolio/${item.slug}`}><Card.Header style={headerStyle}>{item.title}</Card.Header></Link>
