@@ -1,7 +1,7 @@
 export default [
   {
   title: 'Bloc Jams',
-  technology: 'React, SemanticUI',
+  technology: 'React, SemanticUI, CSS3',
   created: 'Spring 2018',
   description: 'React Spotify Clone',
   slug: 'bloc-jams',

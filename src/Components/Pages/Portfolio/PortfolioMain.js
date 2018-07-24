@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './PortfolioMain.css'
-import { Card, Container, Image, Transition } from 'semantic-ui-react';
+import { Container, Image, Transition, Grid} from 'semantic-ui-react';
 import portfolioData from '../../../assets/data/data';
 import {Link} from 'react-router-dom';
 
@@ -26,41 +26,31 @@ class Portfolio extends Component {
 
 
   render() {
-    let headerStyle = {
-      color: '#40a4c8',
-      fontSize: '1.3em',
-      padding: '10px',
-      fontFamily: 'Raleway'
-    };
-
-    let divStyle = {
-      padding: '0 0 10px',
-    }
 
     const {visible} = this.state
     return (
       <Container className={classes.Container}>
         <h1>Theran Brigowatz's Portfolio</h1>
         <h2>Click below for details, screenshots, and GitHub Links</h2>
-        <Card.Group stackable centered itemsPerRow={3} className={classes.Portfolio}>
+        <Grid centered relaxed container className={classes.Portfolio} textAlign='center'>
           {
             this.state.portfolio.map( (item, index) =>
-              <Card className={classes.Card} key={item.slug}>
+              <Grid.Column mobile={12} tablet={8} computer={4} key={item.slug}>
                   <Transition visible={visible} animation='scale' duration={500}>
-                    <Link to={`/portfolio/${item.slug}`}><Image src={item.image} size='medium' centered/></Link>
+                    <Link to={`/portfolio/${item.slug}`} className={classes.MainLink}><Image src={item.image} fluid rounded centered/></Link>
                   </Transition>
-                  <Card.Content style={divStyle}>
-                    <Link to={`/portfolio/${item.slug}`}><Card.Header style={headerStyle}>{item.title}</Card.Header></Link>
-                    <Card.Meta>{item.technology}</Card.Meta>
-                    <Card.Meta>
+                  <div className={classes.ItemDiv}>
+                    <Link to={`/portfolio/${item.slug}`}><h3>{item.title}</h3></Link>
+                    <h4>{item.technology}</h4>
+                    <h5>
                       <a href={item.gitLink} target='_blank'>Source Code</a> |
                       <Link to={`/portfolio/${item.slug}`}> More Info</Link>
-                      </Card.Meta>
-                  </Card.Content>
-              </Card>
+                      </h5>
+                  </div>
+              </Grid.Column>
             )
           }
-        </Card.Group>
+        </Grid>
       </Container>
     );
   }
