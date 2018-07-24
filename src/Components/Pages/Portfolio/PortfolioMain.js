@@ -37,7 +37,7 @@ class Portfolio extends Component {
             this.state.portfolio.map( (item, index) =>
               <Grid.Column mobile={12} tablet={8} computer={5} key={item.slug}>
                   <Transition visible={visible} animation='scale' duration={500}>
-                    <Link to={`/portfolio/${item.slug}`} className={classes.MainLink}><Image src={item.image} fluid rounded centered/></Link>
+                    <a href={item.deployLink} className={classes.MainLink}><Image src={item.image} fluid rounded centered/></a>
                   </Transition>
                   <div className={classes.ItemDiv}>
                     <Link to={`/portfolio/${item.slug}`}><h3>{item.title}</h3></Link>

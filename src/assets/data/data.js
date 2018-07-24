@@ -8,6 +8,7 @@ export default [
   image: 'https://i.imgur.com/QULfpDy.png?1',
   extendedDescription: "Bloc Jams is a my first React SPA that was built as part of my curriculum through Bloc. It is an SPA for albums and music that uses React Router to create a responsive page that works on mobile as well. I started out by building the basic routes with React Router. After that I built up the functionality of the library, album, and music player controls using React. The page was then finally styled through the use of Semantic UI - React. This was my first time working to build an SPA completely with React. It was a learning experience in managing state and props, while building a responsive webpage.",
   gitLink: 'https://github.com/theranbrig/bloc-jams',
+  deployLink: 'https://bloc-jams-theran.netlify.com/',
   screenShot1: 'https://i.imgur.com/gQ4Hrit.png?1',
   screenShot2: 'https://i.imgur.com/p9Pd8c9.png?1',
   screenShot3: 'https://i.imgur.com/tsYxipW.png?1'
@@ -21,6 +22,7 @@ export default [
   image: 'https://i.imgur.com/2vTo5n2.png?1',
   extendedDescription: "Bloc Chat was built as my second project using React. This was part of my curriculum with Bloc.io and was a great experience in learning the concepts of how to build a React app. The app was first built by creating a list of chat rooms that dynamically updates when a user adds a new chat room. After that, displayed messages for each chat room were generated. In order to create messages as a registered user, Firebase was added for user authentication and to save messages for each user. All messages only display within the given chat room in which they were created. Messages and chat rooms may be deleted and edited when necessary. The page was styled using Material UI. It is mobile responsive, though it is best used on a desktop platform. This was my first time using a database with React and it was a good experience in further learning React and showing the power that it has when used with a dynamic database like Firebase.",
   gitLink: 'https://github.com/theranbrig/bloc-chat',
+  deployLink: 'https://bloc-chat-theran.netlify.com',
   screenShot1: 'https://i.imgur.com/xTD2VWq.png?2',
   screenShot2: '',
   screenShot3: ''
