@@ -1,7 +1,7 @@
 export default [
   {
   title: 'Bloc Jams',
-  technology: 'React, SemanticUI, CSS3',
+  technology: 'React, SemanticUI',
   created: 'Spring 2018',
   description: 'React Spotify Clone',
   slug: 'bloc-jams',
@@ -14,7 +14,7 @@ export default [
   },
   {
   title: 'Bloc Chat',
-  technology: 'React, Firebase MaterialUI',
+  technology: 'React, Firebase, MaterialUI',
   created: 'Spring 2018',
   description: 'Web chat with Firebase and React',
   slug: 'bloc-chat',
@@ -27,7 +27,7 @@ export default [
   },
   {
   title: 'Weatherer',
-  technology: 'React, Firebase MaterialUI, Yahoo API',
+  technology: 'React, Firebase, MaterialUI',
   created: 'Spring 2018',
   description: 'Mobile weather web app using Yahoo API',
   slug: 'weatherer',
@@ -40,7 +40,7 @@ export default [
   },
   {
   title: 'News Bites',
-  technology: 'Vanilla Javascript, SemanticUI, NewsAPI',
+  technology: 'Vanilla Javascript, SemanticUI',
   created: 'April 2018',
   description: 'News app using vanilla javascript',
   slug: 'news-bites',

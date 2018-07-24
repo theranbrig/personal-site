@@ -35,7 +35,7 @@ class Portfolio extends Component {
         <Grid centered relaxed container className={classes.Portfolio} textAlign='center'>
           {
             this.state.portfolio.map( (item, index) =>
-              <Grid.Column mobile={12} tablet={8} computer={4} key={item.slug}>
+              <Grid.Column mobile={12} tablet={8} computer={5} key={item.slug}>
                   <Transition visible={visible} animation='scale' duration={500}>
                     <Link to={`/portfolio/${item.slug}`} className={classes.MainLink}><Image src={item.image} fluid rounded centered/></Link>
                   </Transition>

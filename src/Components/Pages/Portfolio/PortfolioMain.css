@@ -6,8 +6,8 @@
   text-align: center;
 }
 
-.Portfolio img{
-  border: 2px gainsboro solid;
+.Portfolio img {
+  border: 3px gainsboro solid;
 }
 
 .Portfolio h3 {
@@ -49,5 +49,3 @@
   font-family: 'Raleway';
   padding-bottom: 20px;
 }
-
-
