@@ -84,23 +84,23 @@ class About extends Component {
 								<h3>Daily Use:</h3>
 								<ul>
 									<li>
-										<i className="devicon-html5-plain colored" />
+										<i className="devicon-html5-plain" />
 										<p>HTML</p>
 									</li>
 									<li>
-										<i class="devicon-css3-plain colored" />
+										<i class="devicon-css3-plain" />
 										<p>CSS</p>
 									</li>
 									<li>
-										<i class="devicon-javascript-plain colored" />
+										<i class="devicon-javascript-plain" />
 										<p>JavaScript</p>
 									</li>
 									<li>
-										<i class="devicon-react-original colored" />
+										<i class="devicon-react-original" />
 										<p>React</p>
 									</li>
 									<li>
-										<i class="devicon-nodejs-plain colored" />
+										<i class="devicon-nodejs-plain" />
 										<p>Node</p>
 									</li>
 									<li>
@@ -108,11 +108,11 @@ class About extends Component {
 										<p>Git</p>
 									</li>
 									<li>
-										<i class="devicon-sass-original colored" />
-										<p>Sass</p>
+										<i class="devicon-postgresql-plain" />
+										<p>PostgreSQL</p>
 									</li>
 									<li>
-										<i class="devicon-jasmine-plain colored" />
+										<i class="devicon-jasmine-plain" />
 										<p>Jasmine</p>
 									</li>
 								</ul>
@@ -122,7 +122,7 @@ class About extends Component {
 								<ul>
 									<li>Express</li>
 									<li>Mongo</li>
-									<li>PostgreSQL</li>
+									<li>Sass</li>
 									<li>Semantic UI</li>
 									<li>Bootstrap</li>
 									<li>Material UI</li>
