@@ -1,5 +1,50 @@
 export default [
 	{
+		title: 'Wiki What',
+		technology: 'React, Express, Node, Postgres',
+		created: 'Summer 2018',
+		description: 'RESTful Wiki collaboration site',
+		slug: 'wiki-what',
+		image: 'https://i.imgur.com/8tK8Q3O.png',
+		extendedDescription:
+			'Full RESTful API site for wiki collaboration.  Users are able to upgrade to premium features.  There is full authentication and crediential checking.  The entire app has been unit and integration tested with Jasmine.  There are full CRUD capabilities for both users and Wikis.  It uses a markdown editor with uniform styling.  I also worked to make sure that the Wiki styling is both clean, modern and stylish; something that is often missing from most Wiki sites.',
+		gitLink: 'https://github.com/theranbrig/bloccipedia',
+		deployLink: 'https://blocipedia-theranbrig.herokuapp.com',
+		screenShot1: 'https://i.imgur.com/MKnPtcn.jpg',
+		screenShot2: '',
+		screenShot3: '',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-express-original',
+			'devicon-nodejs-plain',
+			'devicon-css3-plain',
+			'devicon-heroku-plain',
+			'devicon-postgresql-plain',
+			'devicon-jasmine-plain'
+		]
+	},
+	{
+		title: 'Vane',
+		technology: 'React, Firebase, MaterialUI',
+		created: 'Spring 2018',
+		description: 'Mobile weather web app using Yahoo API',
+		slug: 'vane',
+		image: 'https://i.imgur.com/5lZjf3J.png?1',
+		extendedDescription:
+			'This quick and simple mobile app was built in order to solidify my foundation for ReactJS in my developer boot camp. I built this as an extra project on my own to make sure that I had a good handle on the basic concepts of ReactJS.  This was first built by fetching data from the Yahoo Weather API and using Axios to handle the API requests. Axios ensured that I can handle my API requests with each search that is performed, without further complicating my app life cycle. Components were then rendered out using ReactJS and Material UI. Material UI was used to help with a responsive UX and UI, and helped to maintain styling. I also added styling that that uses a color palette based on the temperature from hot to cold. Screenshots of the color palette in the app can be found here. Finally I have added Firebase in to allow for user authentication via Google. Users may save cities for quick access when signed in.',
+		gitLink: 'https://github.com/theranbrig/weather-app',
+		deployLink: 'https://vane.netlify.com',
+		screenShot1: 'https://i.imgur.com/4h8vHuO.png?1',
+		screenShot2: 'https://i.imgur.com/v2PDWLD.png?1',
+		screenShot3: 'https://i.imgur.com/IyfkO05.png?2',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-react-original',
+			'devicon-css3-plain',
+			'devicon-html5-plain'
+		]
+	},
+	{
 		title: 'Bloc Jams',
 		technology: 'React, SemanticUI',
 		created: 'Spring 2018',
@@ -12,7 +57,13 @@ export default [
 		deployLink: 'https://bloc-jams-theran.netlify.com/',
 		screenShot1: 'https://i.imgur.com/gQ4Hrit.png?1',
 		screenShot2: 'https://i.imgur.com/p9Pd8c9.png?1',
-		screenShot3: 'https://i.imgur.com/tsYxipW.png?1'
+		screenShot3: 'https://i.imgur.com/tsYxipW.png?1',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-react-original',
+			'devicon-css3-plain',
+			'devicon-html5-plain'
+		]
 	},
 	{
 		title: 'Bloc Chat',
@@ -27,22 +78,13 @@ export default [
 		deployLink: 'https://bloc-chat-theran.netlify.com',
 		screenShot1: 'https://i.imgur.com/xTD2VWq.png?2',
 		screenShot2: '',
-		screenShot3: ''
-	},
-	{
-		title: 'Weatherer',
-		technology: 'React, Firebase, MaterialUI',
-		created: 'Spring 2018',
-		description: 'Mobile weather web app using Yahoo API',
-		slug: 'weatherer',
-		image: 'https://i.imgur.com/5lZjf3J.png?1',
-		extendedDescription:
-			'This quick and simple mobile app was built in order to solidify my foundation for ReactJS in my developer boot camp. I built this as an extra project on my own to make sure that I had a good handle on the basic concepts of ReactJS.  This was first built by fetching data from the Yahoo Weather API and using Axios to handle the API requests. Axios ensured that I can handle my API requests with each search that is performed, without further complicating my app life cycle. Components were then rendered out using ReactJS and Material UI. Material UI was used to help with a responsive UX and UI, and helped to maintain styling. I also added styling that that uses a color palette based on the temperature from hot to cold. Screenshots of the color palette in the app can be found here. Finally I have added Firebase in to allow for user authentication via Google. This is still a work in progress as I plan on adding further functionality in the future.',
-		gitLink: 'https://github.com/theranbrig/weather-app',
-		deployLink: 'https://weatherer.netlify.com',
-		screenShot1: 'https://i.imgur.com/4h8vHuO.png?1',
-		screenShot2: 'https://i.imgur.com/v2PDWLD.png?1',
-		screenShot3: 'https://i.imgur.com/IyfkO05.png?2'
+		screenShot3: '',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-react-original',
+			'devicon-css3-plain',
+			'devicon-html5-plain'
+		]
 	},
 	{
 		title: 'News Bites',
@@ -57,7 +99,13 @@ export default [
 		deployLink: 'https://news-bites.netlify.com',
 		screenShot1: 'https://i.imgur.com/oBIjR9C.png?1',
 		screenShot2: '',
-		screenShot3: ''
+		screenShot3: '',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-react-original',
+			'devicon-css3-plain',
+			'devicon-html5-plain'
+		]
 	}
 	// {
 	// title: 'Yelp Camp',

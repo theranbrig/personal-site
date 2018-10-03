@@ -2,50 +2,58 @@
 .Portfolio h3,
 .Portfolio h4,
 .Portfolio h5 {
-  font-family: 'Raleway';
-  text-align: center;
+	font-family: 'Raleway';
+	text-align: center;
 }
 
 .Portfolio img {
-  border: 3px gainsboro solid;
+	border: 3px gainsboro solid;
 }
 
 .Portfolio h3 {
-  font-size: 1.8em;
-  padding: 5px 0 0;
+	font-size: 1.8em;
+	padding: 5px 0 0;
 }
 
 .Portfolio h4 {
-  color: gainsboro;
-  letter-spacing: 0.15em;
-  margin: 5px 0;
-  font-size: 0.9em;
+	color: gainsboro;
+	letter-spacing: 0.15em;
+	margin: 5px 0 10px;
+	font-size: 0.9em;
 }
 
 .Portfolio h5 {
-  margin: 5px 0 15px;
-  color: gainsboro
+	margin: 5px 0 15px;
+	color: gainsboro;
 }
 
 .Portfolio a {
-  color: #40a4c8;
+	color: #40a4c8;
 }
 
 .Container {
-  padding: 20px 5%;
-  margin: 20px 0;
-  text-align: center;
+	padding: 20px 5%;
+	margin: 20px 0;
+	text-align: center;
 }
 
 .Container h1 {
-  font-size: 2em;
-  color: #40a4c8;
-  font-family: 'Raleway'
+	font-size: 2em;
+	color: #40a4c8;
+	font-family: 'Raleway';
 }
 
 .Container h2 {
-  font-size: 1.3em;
-  color: gainsboro;
-  font-family: 'Raleway';
-  padding-bottom: 20px;
+	font-size: 1.3em;
+	color: gainsboro;
+	font-family: 'Raleway';
+	padding-bottom: 20px;
+}
+
+.Portfolio i {
+	color: gainsboro;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px 6px 0;
+	display: inline-flex;
 }
