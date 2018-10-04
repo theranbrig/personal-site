@@ -1,15 +1,15 @@
 export default [
 	{
-		title: 'Wiki What',
+		title: 'Wiki-What',
 		technology: 'Express, Node, SQL',
 		created: 'Summer 2018',
 		description: 'RESTful Wiki collaboration site',
 		slug: 'wiki-what',
 		image: 'https://i.imgur.com/8tK8Q3O.png',
 		extendedDescription:
-			'Full RESTful API site for wiki collaboration.  Users are able to upgrade to premium features.  There is full authentication and crediential checking.  The entire app has been unit and integration tested with Jasmine.  There are full CRUD capabilities for both users and Wikis.  It uses a markdown editor with uniform styling.  I also worked to make sure that the Wiki styling is both clean, modern and stylish; something that is often missing from most Wiki sites.',
-		gitLink: 'https://github.com/theranbrig/bloccipedia',
-		deployLink: 'https://blocipedia-theranbrig.herokuapp.com',
+			'Full RESTful API site for wiki collaboration.  Users are able to upgrade to premium features through Stripe payments.  There is full authentication and crediential checking for premium feature users.  The entire app has been unit and integration tested with Jasmine.  There are full CRUD capabilities for both users and Wikis.  It uses a markdown editor with uniform styling.  I also worked to make sure that the Wiki styling is both clean, modern and stylish; something that is often missing from most Wiki sites.  Though it is primarily meant to be used as a full desktop site, it is mobile responsive.  This was primarily an back-end project to build a complete REST app.  All back-end components are modular and separated for easy scaling and feature addition.  It uses PostgreSQL as a database for wikis and users, with validation that is handled by Passport',
+		gitLink: 'https://github.com/theranbrig/wiki-what',
+		deployLink: 'https://wikiwhat-theranbrig.herokuapp.com/',
 		screenShot1: 'https://i.imgur.com/MKnPtcn.jpg',
 		screenShot2: '',
 		screenShot3: '',
