@@ -28,12 +28,13 @@ class Portfolio extends Component {
 		return (
 			<Container className={classes.Container}>
 				<h1>Theran Brigowatz's Portfolio</h1>
-				<h2>Click below for details, screenshots, and GitHub Links</h2>
+				<h2>Click on the icon to see the deployed version.</h2>
+				<h2>Check out the links below for further details, screenshots, and GitHub Links.</h2>
 				<Grid centered relaxed container className={classes.Portfolio} textAlign="center">
 					{this.state.portfolio.map((item, index) => (
 						<Grid.Column mobile={12} tablet={8} computer={5} key={item.slug}>
 							<Transition visible={visible} animation="scale" duration={500}>
-								<a href={item.deployLink} className={classes.MainLink}>
+								<a href={item.deployLink} className={classes.MainLink} target="_blank">
 									<Image src={item.image} fluid rounded centered />
 								</a>
 							</Transition>
@@ -49,9 +50,9 @@ class Portfolio extends Component {
 								</div>
 								<h5>
 									<a href={item.gitLink} target="_blank">
-										Source Code
+										See it on Git
 									</a>{' '}
-									|<Link to={`/portfolio/${item.slug}`}> More Info</Link>
+									|<Link to={`/portfolio/${item.slug}`}> Learn More</Link>
 								</h5>
 							</div>
 						</Grid.Column>

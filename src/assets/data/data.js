@@ -1,7 +1,7 @@
 export default [
 	{
 		title: 'Wiki What',
-		technology: 'React, Express, Node, Postgres',
+		technology: 'Express, Node, SQL',
 		created: 'Summer 2018',
 		description: 'RESTful Wiki collaboration site',
 		slug: 'wiki-what',
