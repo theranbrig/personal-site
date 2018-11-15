@@ -47,7 +47,7 @@ class About extends Component {
 									href="https://medium.com/@theran.brigowatz"
 									target="_blank"
 									rel="noopener noreferrer">
-									My Blog <i className="fab fa-readme" />
+									Twitter Musings <i className="fab fa-twitter" />
 								</a>
 							</h3>
 						</div>
@@ -58,15 +58,19 @@ class About extends Component {
 						<p>
 							I am a full stack web developer with an eye for design who decided to make a career
 							change after more than a decade in the education industry. An education at Bloc has
-							allowed me to specialize in Javascript on both the front end and the back end, but I
-							am not afraid to take on new languages and challenges. After moving to South Korea
-							more than a decade ago, I decided that staring at a computer screen had more upside
-							than a classroom of unruly kids and stacks of essays to grade. Since my childhood, I
-							have had a passion to create, whether it be art, food, or DIY. My interest in new
-							technology is something that I have always had a great curiosity in pursuing and
-							learning. I am constantly pushing myself to learn and grow as programmer. I enjoy
-							spending time with my family, traveling, cooking, brewing craft beer, and the
-							Minnesota Golden Gophers.
+							given me a love of all things Javascript on both the front end and the back end, but I
+							am not afraid to take on new languages, frameworks, and challenges. I have found my
+							passion for all things code and development. It has given me a new enthusiasm for a
+							career that I love after a decade of energetic kids and stacks of essays to grade,
+							while teaching in South Korea. Since my childhood, I have had a passion to create,
+							whether it be art, food, or DIY. My interest in new technology is something that I
+							have always had a great curiosity in pursuing and learning. I am constantly pushing
+							myself to learn and grow as programmer. I enjoy spending time with my family,
+							traveling, cooking, brewing craft beer, and the Minnesota Golden Gophers.
+						</p>
+						<p>
+							I am open to work in South Korea, the United States, or remote positions right now.
+							Drop me a line and get in touch about work opportunities.
 						</p>
 						<div className={classes.ImageList}>
 							<h2>Skills</h2>
@@ -110,9 +114,13 @@ class About extends Component {
 							<div className={classes.Know}>
 								<h3>No Slouch With:</h3>
 								<ul>
+									<li>GraphQL</li>
+									<li>MVC Architecture</li>
 									<li>Jasmine</li>
+									<li>Jest</li>
 									<li>Mongo</li>
 									<li>Sass</li>
+									<li>Styled Components</li>
 									<li>Semantic UI</li>
 									<li>Bootstrap</li>
 									<li>Material UI</li>

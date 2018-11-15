@@ -1,5 +1,28 @@
 export default [
 	{
+		title: 'Grown',
+		technology: 'Next.js React, Graphql, Prisma',
+		created: 'Fall 2018',
+		description: 'Full Stack GraphQL and React Farmer Market App',
+		slug: 'grown-farms',
+		image: 'https://i.imgur.com/AMvMDMs.png',
+		extendedDescription:
+			'Grown is a full-stack JavaScript project built upon React and GraphQL. It is a place for farmers to sell their products online and for consumers to order products online for later pick up at farmer markets. It is built primarily with React and Apollo on the client side, with GraphQL Yoga amd Prisma connected on the backend.As of right now the farms are available as stores where users can order products. Markets and search are planned features for the next sprint and are coming later. Also I plan on updating the styling in order to fit in more with the feel of the app and product. It is a work in progress still. I welcome feedback and suggestions.',
+		gitLink: 'https://github.com/theranbrig/grown',
+		deployLink: 'https://grownfarms.herokuapp.com/',
+		screenShot1: 'https://i.imgur.com/BmMq37W.png?1',
+		screenShot2: 'https://i.imgur.com/kQF1X9z.png?1',
+		screenShot3: 'https://i.imgur.com/eBabmvL.png?1',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-react-original',
+			'devicon-nodejs-plain',
+			'devicon-css3-plain',
+			'devicon-heroku-plain',
+			'devicon-postgresql-plain',
+		]
+	},
+	{
 		title: 'Wiki-What',
 		technology: 'Express, Node, SQL',
 		created: 'Summer 2018',
