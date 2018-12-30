@@ -8,10 +8,15 @@ import { Link } from 'react-router-dom';
 
 class Home extends Component {
 	render() {
+		console.log('Welcome to the the Console.  Hopefully you see no red.');
+		console.log(
+			'Thanks for checking out my site.  Check out my github @ https://github.com/theranbrig'
+		);
+
 		return (
 			<div className={classes.MainDiv}>
-				<Image src={Logo} id="mainLogoImage" />
-				<div className={classes.MainContent}>
+				<Image src={Logo} id="mainLogoImage" className="wow fadeIn" />
+				<div className={`wow fadeIn ${classes.MainContent}`} data-wow-delay="0.8s">
 					<h1>Hi. I'm Theran.</h1>
 					<h2>I'm a Full-Stack Web Developer located in Seoul, Korea.*</h2>
 					<h3>

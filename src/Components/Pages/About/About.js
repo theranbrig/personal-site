@@ -2,33 +2,24 @@ import classes from './About.css';
 import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 import Profile from '../../../assets/IMG_1880.jpg';
-import { Image, Transition, Grid } from 'semantic-ui-react';
+import { Image, Grid } from 'semantic-ui-react';
 
 class About extends Component {
-	state = {
-		visible: false
-	};
-
-	componentDidMount() {
-		this.makeVisible();
-	}
-
-	makeVisible = () => {
-		setTimeout(() => {
-			this.setState({ visible: true });
-		}, 200);
-	};
-
 	render() {
-		const { visible } = this.state;
 		return (
 			<div className={classes.Main} style={{ marginTop: '40px' }}>
 				<Grid className={classes.Grid} stackable container centered>
 					<Grid.Column mobile={16} tablet={4} computer={4}>
 						<div className={classes.sidebar}>
-							<Transition visible={visible} animation="scale" duration={1000}>
-								<Image size="small" src={Profile} alt="theran brigowatz logo" circular />
-							</Transition>
+							<div className="imageArea">
+								<Image
+									size="small"
+									src={Profile}
+									alt="theran brigowatz logo"
+									circular
+									className="wow fadeIn"
+								/>
+							</div>
 							<h3>
 								<Link to="/contact">
 									Contact Me <i className="fas fa-comment" />
@@ -82,31 +73,31 @@ class About extends Component {
 										<p>HTML</p>
 									</li>
 									<li>
-										<i class="devicon-css3-plain" />
+										<i className="devicon-css3-plain" />
 										<p>CSS</p>
 									</li>
 									<li>
-										<i class="devicon-javascript-plain" />
+										<i className="devicon-javascript-plain" />
 										<p>JavaScript</p>
 									</li>
 									<li>
-										<i class="devicon-react-original" />
+										<i className="devicon-react-original" />
 										<p>React</p>
 									</li>
 									<li>
-										<i class="devicon-nodejs-plain" />
+										<i className="devicon-nodejs-plain" />
 										<p>Node</p>
 									</li>
 									<li>
-										<i class="devicon-github-plain" />
+										<i className="devicon-github-plain" />
 										<p>Git</p>
 									</li>
 									<li>
-										<i class="devicon-postgresql-plain" />
+										<i className="devicon-postgresql-plain" />
 										<p>PostgreSQL</p>
 									</li>
 									<li>
-										<i class="devicon-express-original" />
+										<i className="devicon-express-original" />
 										<p>Express</p>
 									</li>
 								</ul>

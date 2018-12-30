@@ -45,8 +45,13 @@
 	text-align: center;
 }
 
-a.gitLink {
+a.gitLink,
+a.gitLink i {
 	color: #40a4c8;
+}
+
+a.gitLink i {
+	font-size: 1.8rem;
 }
 
 .built {
@@ -79,4 +84,5 @@ a.bottomLink {
 
 div.tech-icons {
 	text-align: center;
+	padding-right: 5px;
 }

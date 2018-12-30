@@ -1,8 +1,7 @@
 @font-face {
 	font-family: 'devicons';
 	src: url('../../../assets/fonts/devicons.eot?xqxft6');
-	src: url('../../../assets/fonts/devicons.eot?#iefixxqxft6')
-			format('embedded-opentype'),
+	src: url('../../../assets/fonts/devicons.eot?#iefixxqxft6') format('embedded-opentype'),
 		url('../../../assets/fonts/devicons.woff?xqxft6') format('woff'),
 		url('../../../assets/fonts/devicons.ttf?xqxft6') format('truetype'),
 		url('../../../assets/fonts/devicons.svg?xqxft6#devicons') format('svg');
@@ -11,7 +10,7 @@
 }
 
 .Grid img {
-	margin: 10px auto 10px;
+	margin: 0 auto;
 }
 
 .Grid h1,
@@ -100,6 +99,10 @@ ul {
 .Grid .sidebar h3 {
 	font-size: 1.1em;
 	text-align: center;
+}
+
+.Grid .sidebar div {
+	height: 180px !important;
 }
 
 @media (max-width: 500px) {

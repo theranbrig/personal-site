@@ -10,23 +10,23 @@ export default [
 			'Grown is a full-stack JavaScript project built upon React and GraphQL. It is a place for farmers to sell their products online and for consumers to order products online for later pick up at farmer markets. It is built primarily with React and Apollo on the client side, with GraphQL Yoga amd Prisma connected on the backend.As of right now the farms are available as stores where users can order products. Markets and search are planned features for the next sprint and are coming later. Also I plan on updating the styling in order to fit in more with the feel of the app and product. It is a work in progress still. I welcome feedback and suggestions.',
 		gitLink: 'https://github.com/theranbrig/grown',
 		deployLink: 'https://grownfarms.herokuapp.com/',
-		screenShot1: 'https://i.imgur.com/BmMq37W.png?1',
+		screenShot1: 'https://i.imgur.com/eBabmvL.png?1',
 		screenShot2: 'https://i.imgur.com/kQF1X9z.png?1',
-		screenShot3: 'https://i.imgur.com/eBabmvL.png?1',
+		screenShot3: 'https://i.imgur.com/BmMq37W.png?1',
 		tech: [
 			'devicon-javascript-plain',
 			'devicon-react-original',
 			'devicon-nodejs-plain',
 			'devicon-css3-plain',
 			'devicon-heroku-plain',
-			'devicon-postgresql-plain',
+			'devicon-postgresql-plain'
 		]
 	},
 	{
 		title: 'Wiki-What',
 		technology: 'Express, Node, SQL',
 		created: 'Summer 2018',
-		description: 'RESTful Wiki collaboration site',
+		description: 'RESTful Wiki Collaboration Site',
 		slug: 'wiki-what',
 		image: 'https://i.imgur.com/8tK8Q3O.png',
 		extendedDescription:
@@ -50,7 +50,7 @@ export default [
 		title: 'Vane',
 		technology: 'React, Firebase, MaterialUI',
 		created: 'Spring 2018',
-		description: 'Mobile weather web app using Yahoo API',
+		description: 'Mobile Weather Web App using Yahoo API',
 		slug: 'vane',
 		image: 'https://i.imgur.com/5lZjf3J.png?1',
 		extendedDescription:
@@ -71,7 +71,7 @@ export default [
 		title: 'Bloc Jams',
 		technology: 'React, SemanticUI',
 		created: 'Spring 2018',
-		description: 'React Spotify Clone',
+		description: 'React Spotify-like Clone',
 		slug: 'bloc-jams',
 		image: 'https://i.imgur.com/QULfpDy.png?1',
 		extendedDescription:
@@ -92,7 +92,7 @@ export default [
 		title: 'Bloc Chat',
 		technology: 'React, Firebase, MaterialUI',
 		created: 'Spring 2018',
-		description: 'Web chat with Firebase and React',
+		description: 'Web Chat with Firebase and React',
 		slug: 'bloc-chat',
 		image: 'https://i.imgur.com/2vTo5n2.png?1',
 		extendedDescription:
@@ -113,7 +113,7 @@ export default [
 		title: 'News Bites',
 		technology: 'Vanilla Javascript, SemanticUI',
 		created: 'April 2018',
-		description: 'News app using vanilla javascript',
+		description: 'News Site using Vanilla JavaScript',
 		slug: 'news-bites',
 		image: 'https://i.imgur.com/QBqC7xv.png?1',
 		extendedDescription:

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Image } from 'semantic-ui-react';
+import { Container, Image, Icon } from 'semantic-ui-react';
 import portfolioData from '../../../../assets/data/data';
 import classes from './Item.css';
 import { Link } from 'react-router-dom';
@@ -30,8 +30,20 @@ class PortfolioItem extends Component {
 						<h1>{this.state.item.title}</h1>
 						<h2>{this.state.item.description}</h2>
 						<h2>
-							<a className={classes.gitLink} href={this.state.item.gitLink} target="_blank">
-								GitHub Source Code
+							<a
+								className={classes.gitLink}
+								href={this.state.item.gitLink}
+								target="_blank"
+								rel="noopener noreferrer">
+								<Icon name="github" /> Code
+							</a>
+							{'  |  '}
+							<a
+								href={this.state.item.deployLink}
+								className={classes.gitLink}
+								target="_blank"
+								rel="noopener noreferrer">
+								Deployed Version
 							</a>
 						</h2>
 					</div>
@@ -57,7 +69,10 @@ class PortfolioItem extends Component {
 							</li>
 						</ul>
 						<h3 className={classes.bottomLink}>
-							See more images and the source code on <a>GitHub</a>
+							See the code:
+							<a href={this.state.item.gitLink} target="_blank" rel="noopener noreferrer">
+								<Icon name="github" />
+							</a>
 						</h3>
 					</section>
 				</div>

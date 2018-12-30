@@ -25,6 +25,7 @@
 .Portfolio h5 {
 	margin: 5px 0 15px;
 	color: gainsboro;
+	font-size: 1.3rem;
 }
 
 .Portfolio a {
@@ -32,7 +33,7 @@
 }
 
 .Container {
-	padding: 20px 5%;
+	padding: 20px 5% 50px;
 	margin: 20px 0;
 	text-align: center;
 }
@@ -50,6 +51,15 @@
 	padding-bottom: 20px;
 }
 
+.Container a {
+	color: #40a4c8;
+}
+
+.Container h4 {
+	font-size: 1.4rem;
+	font-family: 'Raleway';
+}
+
 .Portfolio i {
 	color: gainsboro;
 	text-align: center;
@@ -57,3 +67,5 @@
 	padding: 10px 6px 0;
 	display: inline-flex;
 }
+
+

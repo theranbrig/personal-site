@@ -5,11 +5,9 @@ import NavigationItems from '../NavigationItems/NavigationItems';
 import ToggleButton from '../SideDrawer/ToggleButton';
 import Aux from '../../../hoc/Aux';
 
-
-
 class Navigation extends Component {
-  state = {
-		showSideDrawer: false,
+	state = {
+		showSideDrawer: false
 	};
 
 	sideDrawerClosedHandler = () => {
@@ -22,19 +20,21 @@ class Navigation extends Component {
 		});
 	};
 
-  render() {
-    return (
-      <Aux>
-        <div className={classes.Navigation}>
-          <nav>
-            <img src={Logo} className={classes.Logo} alt='Brigowatz Logo'/>
-            <NavigationItems className={classes.DesktopOnly}/>
-            <ToggleButton clicked={this.props.sideDrawerToggle}/>
-          </nav>
-        </div>
-      </Aux>
-    );
-  }
+	render() {
+		return (
+			<Aux>
+				<div className={classes.Navigation}>
+					<nav>
+						<a href="/">
+							<img src={Logo} className={classes.Logo} alt="Brigowatz Logo" />
+						</a>
+						<NavigationItems className={classes.DesktopOnly} />
+						<ToggleButton clicked={this.props.sideDrawerToggle} />
+					</nav>
+				</div>
+			</Aux>
+		);
+	}
 }
 
 export default Navigation;
