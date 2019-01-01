@@ -52,7 +52,7 @@ class About extends Component {
 							given me a love of all things Javascript on both the front end and the back end, but I
 							am not afraid to take on new languages, frameworks, and challenges. I have found my
 							passion for all things code and development. It has given me a new enthusiasm for a
-							career that I love after a decade of energetic kids and stacks of essays to grade,
+							career that I love, after a decade of energetic kids and stacks of essays to grade,
 							while teaching in South Korea. Since my childhood, I have had a passion to create,
 							whether it be art, food, or DIY. My interest in new technology is something that I
 							have always had a great curiosity in pursuing and learning. I am constantly pushing
