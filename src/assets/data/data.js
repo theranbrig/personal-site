@@ -1,5 +1,27 @@
 export default [
 	{
+		title: 'Grouper',
+		technology: 'Next.js React, Graphql, Prisma',
+		created: 'Winter 2018',
+		description: 'Full Stack GraphQL and React Realtime Shopping App',
+		slug: 'grouper',
+		image: 'https://i.imgur.com/FwGe9Vi.png',
+		extendedDescription:
+			'Group shopping and lists made easy. Check them off as you go and get real-time updates as you shop. Split up and let others get items. Mark them off as you find them. This was built to utilize Next.js with React on the frontend for quick SSR React Components and caching. Apollo Boost works to connect the backend data to the client side, as well has hold local state. All GraphQL Mutations and Queries are handled through Apollo. The API uses GraphQL with a GraphQL server to connect to a Prisma database that is built using PostgreSQL. The relational data structure allows for quick querying to the server. A testing suite was built using Jest and Enzyme to make sure that everything is up and running properly. Snapshot testing was integrated as well. The app is deployed using Heroku on both the front and back ends. This was a quick five day build meant to act as a coding challenge interview, so it is far from perfect yet.',
+		gitLink: 'https://github.com/theranbrig/grouper',
+		deployLink: 'https://grouper-frontend.herokuapp.com/',
+		screenShot1: 'https://i.imgur.com/BwIfJ5m.png',
+		screenShot2: 'https://i.imgur.com/Sa8VlMo.png',
+		tech: [
+			'devicon-javascript-plain',
+			'devicon-react-original',
+			'devicon-nodejs-plain',
+			'devicon-css3-plain',
+			'devicon-heroku-plain',
+			'devicon-postgresql-plain'
+		]
+	},
+	{
 		title: 'Grown',
 		technology: 'Next.js React, Graphql, Prisma',
 		created: 'Fall 2018',
