@@ -3,6 +3,7 @@ import classes from './PortfolioMain.css';
 import { Container, Image, Icon, Grid } from 'semantic-ui-react';
 import portfolioData from '../../../assets/data/data';
 import { Link } from 'react-router-dom';
+import GraphQLImage from '../../../assets/graphql.svg';
 
 class Portfolio extends Component {
 	constructor(props) {
@@ -26,7 +27,14 @@ class Portfolio extends Component {
 								className={classes.MainLink}
 								target="_blank"
 								rel="noopener noreferrer">
-								<Image src={item.image} size="medium" rounded centered className="wow fadeIn" />
+								<Image
+									src={item.image}
+									size="medium"
+									rounded
+									centered
+                  className="wow fadeIn main-screenshot-image"
+                  style={{height: "300px", width: "300px", border: "2px solid gainsboro"}}
+								/>
 							</a>
 							<div className={classes.ItemDiv}>
 								<Link to={`/portfolio/${item.slug}`}>
@@ -34,9 +42,13 @@ class Portfolio extends Component {
 								</Link>
 								<h4>{item.technology}</h4>
 								<div className="tech-icons" style={{ textAlign: 'center' }}>
-									{item.tech.map(el => (
-										<i className={el} key={el} />
-									))}
+									{item.tech.map(el => {
+										if (el === 'graphql') {
+											return <img src={GraphQLImage} alt="graphql" className="graphql-logo" style={{padding: "0 7px 0 5px", height: "28px"}} key={el}/>;
+										} else {
+											return <i className={el} key={el} />;
+										}
+									})}
 								</div>
 								<h5>
 									<a href={item.gitLink} target="_blank" rel="noopener noreferrer">

@@ -3,6 +3,7 @@ import { Container, Image, Icon } from 'semantic-ui-react';
 import portfolioData from '../../../../assets/data/data';
 import classes from './Item.css';
 import { Link } from 'react-router-dom';
+import GraphQLImage from '../../../../assets/graphql.svg';
 
 class PortfolioItem extends Component {
 	constructor(props) {
@@ -50,11 +51,13 @@ class PortfolioItem extends Component {
 					<section className={classes.built}>
 						<h3>Built with: {this.state.item.technology}</h3>
 						<div className="tech-icons" style={{ textAlign: 'center' }}>
-							{this.state.item.tech.map(el => (
-								<h4 style={{ display: 'inline-block' }}>
-									<i className={el} />
-								</h4>
-							))}
+							{this.state.item.tech.map(el => {
+                if (el === 'graphql') {
+											return <img src={GraphQLImage} alt="graphql" className="graphql-logo" style={{padding: "0 10px 0 8px", height: "28px"}} key={el} />;
+										} else {
+											return <i className={el} key={el} />;
+									}
+                })}
 						</div>
 						<p>{this.state.item.extendedDescription}</p>
 						<ul>

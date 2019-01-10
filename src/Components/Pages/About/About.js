@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 import Profile from '../../../assets/IMG_1880.jpg';
 import { Image, Grid } from 'semantic-ui-react';
+import GraphQLImage from '../../../assets/graphql.svg'
 
 class About extends Component {
 	render() {
@@ -97,15 +98,15 @@ class About extends Component {
 										<p>PostgreSQL</p>
 									</li>
 									<li>
-										<i className="devicon-express-original" />
-										<p>Express</p>
+                    <img src={GraphQLImage} alt="graphql-image" style={{height: "55px"}}/>
+										<p>GraphQL</p>
 									</li>
 								</ul>
 							</div>
 							<div className={classes.Know}>
 								<h3>No Slouch With:</h3>
 								<ul>
-									<li>GraphQL</li>
+									<li>Express</li>
 									<li>MVC Architecture</li>
 									<li>Jasmine</li>
 									<li>Jest</li>

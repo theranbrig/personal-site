@@ -22,7 +22,8 @@
 	color: gainsboro;
 	font-size: 1.2em;
 	letter-spacing: 0.1em;
-	line-height: 1.5em;
+  line-height: 1.5em;
+  padding-top: 20px;
 }
 
 .Item i,
@@ -84,5 +85,5 @@ a.bottomLink {
 
 div.tech-icons {
 	text-align: center;
-	padding-right: 5px;
+  padding-right: 5px;
 }

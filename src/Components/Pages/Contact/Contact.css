@@ -1,87 +1,89 @@
 .SocialIcons li i {
-  color: gainsboro;
-  font-size: 5em;
-  padding: 5px;
-  text-align: center;
+	color: gainsboro;
+	font-size: 5em;
+	padding: 5px;
+	text-align: center;
 }
 
 .SocialIcons ul li {
-  display: inline-block;
-  width: 15%;
-  margin: 0 auto;
+	display: inline-block;
+	width: 15%;
+	margin: 0 auto;
 }
 
 .SocialIcons ul {
-  padding: 50px 0;
+	padding: 50px 0;
 }
 
 .SocialIcons ul li a {
-  text-decoration: none;
-  color: #40a4c8;
-  margin: 0 auto;
-  font-weight: 300;
+	text-decoration: none;
+	color: #40a4c8;
+	margin: 0 auto;
+	font-weight: 300;
 }
 
 .SocialIcons ul li h5 {
-  font-family: 'Raleway';
-  font-size: 0.7em;
-  letter-spacing: 0.1em;
+	font-family: 'Raleway';
+	font-size: 0.7em;
+	letter-spacing: 0.1em;
 }
 
 .ContactPage {
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  color: gainsboro;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: gainsboro;
 }
 
 .ContactPage h1 {
-  letter-spacing: 0.15em
+	letter-spacing: 0.15em;
 }
 
 .ContactPage p {
-  letter-spacing: 0.1em;
-  font-size: 1.2em;
+	letter-spacing: 0.1em;
+	font-size: 1.2em;
+	width: 80%;
+	margin-left: 10%;
 }
 
 .ContactPage p:last-child {
-  width: 50%;
-  margin: 40px auto;
+	width: 50%;
+	margin: 40px auto;
 }
 
-.ContactPage p:last-child a {
-  color: #40a4c8
+.ContactPage p a {
+	color: #40a4c8;
 }
 
 .Logo {
-  margin: 5% auto;
+	margin: 3% auto;
 }
 
 @media (max-width: 768px) {
-  .SocialIcons ul li {
-    width: 20%;
-  }
-  .SocialIcons ul li h5 {
-    padding-bottom: 10px;
-    font-size: 0.6em;
-    margin: 0 auto 40px;
-  }
-  .ContactPage p:last-child {
-    width: 95%;
-    margin: 0px auto 40px;
-  }
-  .ContactPage {
-    width: 95%;
-  }
+	.SocialIcons ul li {
+		width: 20%;
+	}
+	.SocialIcons ul li h5 {
+		padding-bottom: 10px;
+		font-size: 0.6em;
+		margin: 0 auto 40px;
+	}
+	.ContactPage p:last-child {
+		width: 95%;
+		margin: 0px auto 40px;
+	}
+	.ContactPage {
+		width: 95%;
+	}
 }
 
 @media (max-width: 500px) {
-  .SocialIcons ul li {
-    display: inline;
-    width: 80%;
-  }
-  .SocialIcons ul li h5 {
-    padding-top: 15px;
-    font-size: 1em;
-  }
+	.SocialIcons ul li {
+		display: inline;
+		width: 80%;
+	}
+	.SocialIcons ul li h5 {
+		padding-top: 15px;
+		font-size: 1em;
+	}
 }

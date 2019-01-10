@@ -1,0 +1,35 @@
+div.Form {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}
+
+.Form textarea {
+  height: 200px !important;
+}
+
+.Form h2 {
+  padding-top: 30px;
+}
+
+.Form label {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 1.3rem !important;
+  letter-spacing: 0.15rem;
+}
+
+.Form input,
+.Form textarea {
+  margin: 10px 0 !important;
+}
+
+.Form button {
+  color: #40a4c8 !important;
+  font-size: 1.5rem !important;
+  letter-spacing: 0.15rem;
+}
+
+.Form button:hover {
+  background-color: #40a4c8 !important;
+  color: #232323 !important;
+}
