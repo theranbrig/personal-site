@@ -98,7 +98,7 @@ class About extends Component {
 										<p>PostgreSQL</p>
 									</li>
 									<li>
-                    <img src={GraphQLImage} alt="graphql-image" style={{height: "55px"}}/>
+                    <img src={GraphQLImage} alt="graphql" style={{height: "55px"}}/>
 										<p>GraphQL</p>
 									</li>
 								</ul>

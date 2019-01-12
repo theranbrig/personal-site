@@ -16,7 +16,7 @@ class Home extends Component {
 		return (
 			<div className={classes.MainDiv}>
 				<Image src={Logo} id="mainLogoImage" className="wow fadeIn" />
-				<div className={`wow fadeIn ${classes.MainContent}`} data-wow-delay="0.8s">
+				<div className={classes.MainContent}>
 					<h1>Hi. I'm Theran.</h1>
 					<h2>I'm a Full-Stack Web Developer. Check out some of the cool stuff I've made.*</h2>
 					<h3>
@@ -28,10 +28,13 @@ class Home extends Component {
 					<h3>
 						I also have some musings on JavaScript and development.{' '}
 						<a href="https://twitter.com/wellBuilt" target="_blank" rel="noopener noreferrer">
-							Check it out. <Icon name="twitter"/>
+							Check it out. <Icon name="twitter" />
 						</a>
 					</h3>
-					<p>*I'm an American citizen currently located in the "Good" Korea.  Soon to be back stateside.</p>
+					<p>
+						*I'm an American citizen currently located in the "Good" Korea. Soon to be back
+						stateside.
+					</p>
 				</div>
 				<Particles params={ParticlesParams} className={classes.Particles} />
 			</div>
