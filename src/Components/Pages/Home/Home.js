@@ -30,16 +30,18 @@ class Home extends Component {
 						<a href="https://twitter.com/wellBuilt" target="_blank" rel="noopener noreferrer">
 							Twitter <Icon name="twitter" />
 						</a>
-						{' & '}
+						{'and '}
 						<a
 							href="https://medium.com/@theran.brigowatz"
 							target="_blank"
 							rel="noopener noreferrer">
+							{' '}
 							Medium <Icon name="medium" />
 						</a>
 					</h3>
 					<p>
-						*I'm an American citizen currently located in the "Good" Korea, and available to work around the world.
+						*I'm an American citizen currently located in the "Good" Korea, and available to work
+						around the world.
 					</p>
 				</div>
 				<Particles params={ParticlesParams} className={classes.Particles} />
