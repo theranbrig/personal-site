@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 import Profile from '../../../assets/IMG_1880.jpg';
 import { Image, Grid } from 'semantic-ui-react';
-import GraphQLImage from '../../../assets/graphql.svg'
+import GraphQLImage from '../../../assets/graphql.svg';
 
 class About extends Component {
 	render() {
@@ -35,11 +35,16 @@ class About extends Component {
 								</a>
 							</h3>
 							<h3>
+								<a href="https://twitter.com/wellBuilt" target="_blank" rel="noopener noreferrer">
+									Twitter Musings <i className="fab fa-twitter" />
+								</a>
+							</h3>
+							<h3>
 								<a
 									href="https://medium.com/@theran.brigowatz"
 									target="_blank"
 									rel="noopener noreferrer">
-									Twitter Musings <i className="fab fa-twitter" />
+									Medium Blog <i className="fab fa-medium" />
 								</a>
 							</h3>
 						</div>
@@ -52,13 +57,16 @@ class About extends Component {
 							change after more than a decade in the education industry. An education at Bloc has
 							given me a love of all things Javascript on both the front end and the back end, but I
 							am not afraid to take on new languages, frameworks, and challenges. I have found my
-							passion for all things code and development. It has given me a new enthusiasm for a
-							career that I love, after a decade of energetic kids and stacks of essays to grade,
-							while teaching in South Korea. Since my childhood, I have had a passion to create,
-							whether it be art, food, or DIY. My interest in new technology is something that I
-							have always had a great curiosity in pursuing and learning. I am constantly pushing
-							myself to learn and grow as programmer. I enjoy spending time with my family,
-							traveling, cooking, brewing craft beer, and the Minnesota Golden Gophers.
+							passion for all things code and development.
+						</p>
+						<p>
+							Coding has given me a new enthusiasm for a career that I love, after a decade of
+							energetic kids and stacks of essays to grade, while teaching in South Korea. Since my
+							childhood, I have had a passion to create, whether it be art, food, or DIY. My
+							interest in new technology is something that I have always had a great curiosity in
+							pursuing and learning. I am constantly pushing myself to learn and grow as programmer.
+							I enjoy spending time with my family, traveling, cooking, brewing craft beer, and the
+							Minnesota Golden Gophers.
 						</p>
 						<p>
 							I am open to work in South Korea, the United States, or remote positions right now.
@@ -98,7 +106,7 @@ class About extends Component {
 										<p>PostgreSQL</p>
 									</li>
 									<li>
-                    <img src={GraphQLImage} alt="graphql" style={{height: "55px"}}/>
+										<img src={GraphQLImage} alt="graphql" style={{ height: '55px' }} />
 										<p>GraphQL</p>
 									</li>
 								</ul>

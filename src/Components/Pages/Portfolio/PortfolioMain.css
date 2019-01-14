@@ -6,10 +6,8 @@
 	text-align: center;
 }
 
-
-
 img.graphql-logo {
-  padding-left: 5px !important;
+	padding-left: 5px !important;
 }
 
 .Portfolio h3 {
@@ -68,4 +66,10 @@ img.graphql-logo {
 	font-size: 30px;
 	padding: 10px 6px 0;
 	display: inline-flex;
+}
+
+.Container p {
+	color: gainsboro;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 20px;
 }

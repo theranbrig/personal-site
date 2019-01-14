@@ -23,17 +23,23 @@ class Home extends Component {
 						See some of <Link to="/portfolio">my work</Link> and check out my code.
 					</h3>
 					<h3>
-						<Link to="/about">Learn more</Link> about me and see my resume.
+						<Link to="/about">Learn more</Link> about me and what tech I've been working with.
 					</h3>
 					<h3>
-						I also have some musings on JavaScript and development.{' '}
+						Check out my musings on JavaScript and development. Check it out on{' '}
 						<a href="https://twitter.com/wellBuilt" target="_blank" rel="noopener noreferrer">
-							Check it out. <Icon name="twitter" />
+							Twitter <Icon name="twitter" />
+						</a>
+						{' & '}
+						<a
+							href="https://medium.com/@theran.brigowatz"
+							target="_blank"
+							rel="noopener noreferrer">
+							Medium <Icon name="medium" />
 						</a>
 					</h3>
 					<p>
-						*I'm an American citizen currently located in the "Good" Korea. Soon to be back
-						stateside.
+						*I'm an American citizen currently located in the "Good" Korea, and available to work around the world.
 					</p>
 				</div>
 				<Particles params={ParticlesParams} className={classes.Particles} />
