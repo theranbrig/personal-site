@@ -68,6 +68,10 @@ h2 {
 	color: gainsboro;
 }
 
+.ImageList ul {
+	padding: 0;
+}
+
 .row {
 	margin: 0;
 }
@@ -78,21 +82,28 @@ h2 {
 	letter-spacing: 0.2em;
 }
 
-ul {
+.Know ul,
+.Learn ul {
 	list-style: none;
-	padding-left: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	align-items: center;
 }
 
 .Know ul li {
 	font-size: 1.1em;
 	letter-spacing: 0.1em;
-	width: 25%;
 	padding: 15px;
+	width: 100%;
+	text-align: center;
 }
 
-.Learn ul li:last-child p:last-child {
-	margin-top: 40px;
-	font-size: 0.9em;
+.Learn p {
+	padding-left: 30px;
+}
+
+.Learn p:last-child {
+	padding-bottom: 50px;
 }
 
 .Grid .sidebar h3 a,
@@ -106,13 +117,29 @@ ul {
 }
 
 @media (max-width: 500px) {
-	ul {
+	.Know ul,
+	.ImageList ul {
 		padding: 0;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
+
+	.Know ul li,
 	.ImageList ul li {
 		display: inline-block;
-		width: 33%;
 		font-size: 0.9em;
+		align-items: center;
+	}
+
+	.ImageList ul li {
+		width: 33%;
+	}
+
+	.Know ul {
+		margin-left: 5px;
+	}
+
+	.Know ul li {
+		width: 100%;
 	}
 
 	.Grid h3,
@@ -120,6 +147,7 @@ ul {
 		font-size: 1em;
 		margin: 5px 0;
 	}
+
 	.Grid .sidebar h3,
 	.Grid .sidebar h3 a {
 		font-size: 1.1em;
@@ -133,5 +161,9 @@ ul {
 		letter-spacing: 0.15em;
 		line-height: 1.6em;
 		font-size: 1em;
+	}
+
+	.Learn p {
+		padding-left: 10px;
 	}
 }

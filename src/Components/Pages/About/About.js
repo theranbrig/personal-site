@@ -130,14 +130,9 @@ class About extends Component {
 							</div>
 							<h3>Skills In the Pipeline:</h3>
 							<div className={classes.Learn}>
-								<ul>
-									<li>
-										<p>Give me your best shot. I'll take on anything else you throw at me.*</p>
-									</li>
-									<li>
-										<p>*Also Sausage Making and Chacuterie.</p>
-									</li>
-								</ul>
+								<p>Give me your best shot. I'll take on anything else you throw at me.*</p>
+
+								<p>*Also Sausage Making and Chacuterie.</p>
 							</div>
 						</div>
 					</Grid.Column>

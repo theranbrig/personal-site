@@ -38,6 +38,7 @@ class Home extends Component {
 							{' '}
 							Medium <Icon name="medium" />
 						</a>
+						.
 					</h3>
 					<p>
 						*I'm an American citizen currently located in the "Good" Korea, and available to work
